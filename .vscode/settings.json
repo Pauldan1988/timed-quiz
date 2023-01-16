@@ -1,3 +1,5 @@
 {
-    "workbench.preferredHighContrastLightColorTheme": "Monokai Dimmed"
+    "workbench.preferredHighContrastLightColorTheme": "Noctis High Contrast No Italic No Bold",
+    "workbench.preferredDarkColorTheme": "Noctis High Contrast No Italic No Bold",
+    "workbench.colorTheme": "Signed Dark Pro"
 }

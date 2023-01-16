@@ -1,0 +1,18 @@
+{
+    "sourceFile": "script.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1671924419753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1671924419753,
+            "name": "Commit-0",
+            "content": "const containerE1 = document.getElementById(\"quizlet\")\r\n\r\nfunction dashboard() {\r\n    const dashContainer = document.createElement(\"div\")\r\n\r\n    const dashHeader = document.createElement(\"header\")\r\n    dashHeader.textContent = \"Quizlet\"\r\n    // dashHeader.classList.add(\"\")\r\n    const logoh1 = document.createElement(\"h1\")\r\n    logoh1.textContent = \"QZ\"\r\n    // logoh1.classList.add(\"\")\r\n    const dashButton = document.createElement(\"button\")\r\n    dashButton.textContent = \"Scores\"\r\n    dashButton.addEventListener(\"click\", function () {\r\n    \r\n    })\r\n    dashHeader.appendChild(logoh1)\r\n    dashHeader.appendChild(dashButton)\r\n    dashContainer.appendChild(dashHeader)\r\n    return dashContainer\r\n}\r\n\r\ndashboard()\r\n\r\nfunction scoreSheet() {\r\n    const scoreDiv = document.createElement = createElement(\"div\")\r\n\r\n    const scoreHeader = document.createElement = createElement(\"header\")\r\n    scoreHeader.textContent = \"Congratulations! Your score is\"\r\n    // scoreHeader.classList.add(\"\")\r\n    // const scoreHeader\r\n\r\n\r\n}"
+        }
+    ]
+}
