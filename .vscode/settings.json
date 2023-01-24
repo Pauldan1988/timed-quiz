@@ -1,5 +1,6 @@
 {
     "workbench.preferredHighContrastLightColorTheme": "Noctis High Contrast No Italic No Bold",
     "workbench.preferredDarkColorTheme": "Noctis High Contrast No Italic No Bold",
-    "workbench.colorTheme": "Signed Dark Pro"
+    "workbench.colorTheme": "Signed Dark Pro",
+    "liveServer.settings.port": 5501
 }
