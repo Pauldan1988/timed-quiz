@@ -1,0 +1,6 @@
+body {
+    display: flex;
+    background: lightsteelblue;
+    justify-content: right;
+    flex-direction: column;
+}

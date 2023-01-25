@@ -1,0 +1,15 @@
+root {
+    --background-color: #778899;
+    
+}
+
+body {
+    display: flex;
+    background: var(--background-color);
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* #quizlet {
+
+} */

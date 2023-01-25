@@ -1,0 +1,14 @@
+root {
+    --background-color: lightslategrey;
+}
+
+body {
+    display: flex;
+    background-color: lightslategrey;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* #quizlet {
+
+} */

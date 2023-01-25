@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    background: lightsteelblue;
+    flex-direction: column;
+    font-family: 'Permanent Marker', cursive;
+}
+
