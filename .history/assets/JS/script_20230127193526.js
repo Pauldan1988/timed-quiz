@@ -1,5 +1,4 @@
 //@ts-check
-const button = document.getElementById("goToHs")
 let quizStart = document.querySelector("#start")
 //@ts-ignore
 quizStart.addEventListener("click", beginQuiz)
@@ -7,10 +6,8 @@ quizStart.addEventListener("click", beginQuiz)
 function beginQuiz() {
    location.href = `/questions.html`
 }
-//@ts-ignore
-button.addEventListener("click", () => {
-   location.href = '/scorepage.html'
-})
+
+
 
 
 
@@ -33,12 +30,14 @@ button.addEventListener("click", () => {
 
 
 // //@ts-check
-
+// // const button = document.getElementById("goToHs")
 // let quizStart = document.querySelector("#start")
 // //@ts-ignore
 // quizStart.addEventListener("click", beginQuiz)
 // //@ts-ignore
-
+button.addEventListener("click", () => {
+   location.href = '/questions.html'
+})
 
 
 // // function beginQuiz() {

@@ -1,9 +1,9 @@
 let scoreParams = new URLSearchParams(document.location.search)
 let quizScore = scoreParams.get("score")
 
-const scoreDisplay = document.getElementById("score")
 
-scoreDisplay.textContent = quizScore
+
+const scoreDisplay = document.getElementById("score")
 
 const form = document.querySelector('form')
 
@@ -17,7 +17,7 @@ form.addEventListener('name', (e) => {
 })
 
 
-document.getElementById('formdiv').addEventListener('click', () => {
+document.getElementById('showLocal').addEventListener('click', () => {
     const keys = Object.keys(localStorage)
     keys.forEach(key => {
         const liEl = document.createElement('li')
@@ -27,9 +27,9 @@ document.getElementById('formdiv').addEventListener('click', () => {
     })
 })
 
-// if (!params.get('score')) {
-//     form.classList.add('hidden')
-// }
+if (!params.get('score')) {
+    form.classList.add('hidden')
+}
 
 
 

@@ -1,5 +1,5 @@
 //@ts-check
-const button = document.getElementById("goToHs")
+
 let quizStart = document.querySelector("#start")
 //@ts-ignore
 quizStart.addEventListener("click", beginQuiz)
@@ -7,9 +7,9 @@ quizStart.addEventListener("click", beginQuiz)
 function beginQuiz() {
    location.href = `/questions.html`
 }
-//@ts-ignore
+
 button.addEventListener("click", () => {
-   location.href = '/scorepage.html'
+   location.href = '/questions.html'
 })
 
 

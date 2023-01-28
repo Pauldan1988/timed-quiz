@@ -7,9 +7,9 @@ quizStart.addEventListener("click", beginQuiz)
 function beginQuiz() {
    location.href = `/questions.html`
 }
-//@ts-ignore
+.
 button.addEventListener("click", () => {
-   location.href = '/scorepage.html'
+   location.href = '/questions.html'
 })
 
 

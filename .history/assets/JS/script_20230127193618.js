@@ -9,7 +9,7 @@ function beginQuiz() {
 }
 //@ts-ignore
 button.addEventListener("click", () => {
-   location.href = '/scorepage.html'
+   location.href = '/questions.html'
 })
 
 
