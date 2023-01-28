@@ -3,12 +3,12 @@ const button = document.getElementById("goToHs")
 let quizStart = document.querySelector("#start")
 //@ts-ignore
 quizStart.addEventListener("click", beginQuiz)
-//@ts-ignore
+
 button.addEventListener("click", () => {
-   location.href = '/scorepage'
+   location.href = '/s'
 })
 
 
 function beginQuiz() {
-   location.href = `/scorepage.html`
+   location.href = `/questions.html`
 }
