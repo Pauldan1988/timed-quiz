@@ -2,6 +2,8 @@ let scoreParams = new URLSearchParams(document.location.search)
 let quizScore = scoreParams.get("score")
 const input = document.getElementById("initials")
 const scoreDisplay = document.getElementById("score")
+const params = new URLSearchParams(location.search)
+const hsList = document.getElementById("scores")
 
 scoreDisplay.textContent = quizScore
 
@@ -27,9 +29,9 @@ document.getElementById("formdiv").addEventListener("click", () => {
     })
 })
 
-if (!params.get("score")) {
-    form.classList.add("hidden")
-}
+// if (!params.get("score")) {
+//     form.classList.add("hidden")
+// }
 
 
 
@@ -40,8 +42,7 @@ if (!params.get("score")) {
 
 
 
-const params = new URLSearchParams(location.search)
-const hsList = document.getElementById("scores")
+
 // ​
 // ​
 

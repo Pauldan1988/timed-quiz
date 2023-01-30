@@ -27,9 +27,9 @@ document.getElementById("formdiv").addEventListener("click", () => {
     })
 })
 
-if (!params.get("score")) {
-    form.classList.add("hidden")
-}
+// if (!params.get("score")) {
+//     form.classList.add("hidden")
+// }
 
 
 

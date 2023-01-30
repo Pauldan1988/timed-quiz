@@ -17,10 +17,10 @@ form.addEventListener("name", (e) => {
 })
 
 
-document.getElementById("formdiv").addEventListener("click", () => {
+document.getElementById("formdiv").addEventListener('click', () => {
     const keys = Object.keys(localStorage)
     keys.forEach(key => {
-        const liEl = document.createElement("li")
+        const liEl = document.createElement('li')
         const score = localStorage.getItem(key)
         liEl.textContent = `${key}: ${score}`
         hsList.append(liEl)

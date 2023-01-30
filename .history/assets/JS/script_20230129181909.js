@@ -1,6 +1,6 @@
 //@ts-check
-let quizStart = document.querySelector("#start")
 const button = document.getElementById("goToHs")
+
 //@ts-ignore
 quizStart.addEventListener("click", beginQuiz)
 
