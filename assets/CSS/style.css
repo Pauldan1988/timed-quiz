@@ -6,6 +6,25 @@ body {
     font-family: 'Permanent Marker', cursive;
 }
 
-/* #quizlet {
+#quizlet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
 
-} */
+#start {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color:lightgrey;
+}
+
+#goToHs {
+    height: 3rem;
+    width: 5rem;
+    font-size: inherit;
+    font-weight: 500;
+    background-color: lightgrey;
+}

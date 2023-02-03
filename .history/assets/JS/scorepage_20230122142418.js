@@ -1,1 +1,0 @@
-let scoreParams = new URLSearchParams()

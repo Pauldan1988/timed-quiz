@@ -1,8 +1,0 @@
-//@ts-check
-let startButton = document.getElementById("start")
-let quizStart = document.querySelector()
-
-
-window.location.href = `/index.html?index=${quizStart}`
-
-console.log(quizStart)

@@ -5,3 +5,29 @@ body {
     flex-direction: row;
     font-family: 'Permanent Marker', cursive;
 }
+
+h2 {
+    padding-top: 4rem;
+    font-size: 2rem;
+}
+
+#questions {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+#questions button {
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+    background-color: peachpuff;
+}
+
+#timer {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    font-size: 2rem;
+    color: palevioletred;
+}
