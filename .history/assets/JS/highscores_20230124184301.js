@@ -1,4 +1,0 @@
-//@ts-check
-
-
-highScore.addEventListener()
