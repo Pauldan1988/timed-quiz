@@ -5,7 +5,7 @@ const button = document.getElementById("goToHs")
 quizStart.addEventListener("click", beginQuiz)
 
 function beginQuiz() {
-   location.href = `questions.html`
+   location.href = `/questions.html`
 }
 //@ts-ignore
 button.addEventListener("click", () => {
