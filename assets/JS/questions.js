@@ -71,7 +71,7 @@ function checkAnswer(event) { //Two conditionals to check the answer
         displayQuestion(questions[questionIndex])
      } else {
         clearInterval(timer)
-        window.location.href = `/scorepage.html?score=${time}`
+        window.location.href = `scorepage.html?score=${time}`
 
      }
     }
