@@ -35,7 +35,13 @@ if (!params.get("score")) {
 }
 
 
+const buttonHome = document.getElementById("returnhome")
 
+buttonHome.addEventListener("click", (e) => {
+    e.preventDefault()
+
+    location.href = 'index.html'
+})
 
 
 
