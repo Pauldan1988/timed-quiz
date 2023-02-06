@@ -2,7 +2,7 @@ let scoreParams = new URLSearchParams(document.location.search)
 let quizScore = scoreParams.get("score")
 const input = document.getElementById("initials")
 const scoreDisplay = document.getElementById("score")
-const params = new URLSearchParams(location.search)
+const params = new URLSearchParams(document.location.search)
 const hsList = document.getElementById("scores")
 
 scoreDisplay.textContent = quizScore
